@@ -1,0 +1,21 @@
+{
+  "name": "name-sorter",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "name-sorter": "bin/name-sorter.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "tsx src/main.ts unsorted-names-list.txt  sorted-names-list.txt "
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "chalk": "^6.0.0",
+    "tsx": "^4.23.13",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
